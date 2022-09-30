@@ -1,0 +1,75 @@
+.wrapper {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+
+    &:hover .actions-icon:first-child {
+        display: block;
+    }
+}
+.avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.nickname {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: var(--text-color-black);
+}
+.comment {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    white-space: pre-line;
+    word-break: break-word;
+    margin-bottom: 6px;
+}
+.time {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--text-color-gray);
+
+    span {
+        margin-right: 24px;
+    }
+}
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 18px;
+    padding-top: 24px;
+    position: relative;
+}
+.actions-icon:first-child {
+    display: none;
+    position: absolute;
+    top: 0;
+    font-size: 2.4rem;
+}
+.actions-icon:last-child {
+    color: rgba(22, 24, 35, 0.5);
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+
+    .icons {
+        margin-bottom: 4px;
+    }
+}

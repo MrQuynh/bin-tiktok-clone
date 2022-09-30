@@ -1,0 +1,25 @@
+.wrapper {
+    position: fixed;
+    right: 20px;
+    top: 90px;
+}
+.body {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(15, 235, 34, 0.6);
+    position: relative;
+}
+.text {
+    color: blue;
+    padding-left: 30px;
+    font-size: 2rem;
+    line-height: 5rem;
+}
+.line {
+    position: absolute;
+    bottom: 0;
+    color: rgba(15, 235, 34, 1);
+    border-top: 3px solid rgba(15, 235, 34, 1);
+    width: 100%;
+}

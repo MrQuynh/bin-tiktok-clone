@@ -1,0 +1,16 @@
+.wrapper {
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+}
+.body {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(15, 235, 34, 0.6);
+}
+.text {
+    color: blue;
+    text-align: center;
+    line-height: 5rem;
+}

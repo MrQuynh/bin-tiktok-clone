@@ -1,0 +1,28 @@
+.wrapper {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+
+    display: flex;
+    padding: 40px 30px 6px;
+}
+.qr-image {
+    width: 180px;
+    height: 180px;
+}
+.guide {
+    margin: 14px 0;
+}
+.guide-text {
+    color: var(--text-color-black);
+
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+.guide-icon {
+    // font-size: 2rem;
+}
+.phone-image {
+    width: 200px;
+}

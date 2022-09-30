@@ -1,0 +1,184 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+@keyframes fadeIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(100%);
+        opacity: 100%;
+    }
+}
+.body {
+    background-color: var(--bg-color);
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 0 1px 5px rgba(236, 94, 11, 0.5);
+    margin: auto;
+    animation: fadeIn linear 0.2s;
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color-black);
+}
+.content {
+    padding: 32px;
+    width: 332px;
+}
+
+.btn-save {
+    height: 48px;
+    font-size: 16px;
+    line-height: 48px;
+    border-top: 1px solid rgba(22, 24, 35, 0.12);
+    cursor: pointer;
+    text-align: center;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.04);
+    }
+}
+.title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 4px;
+    text-align: center;
+}
+.desc {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.select-contain {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 2px;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    cursor: pointer;
+
+    p {
+        font-size: 1.4rem;
+    }
+}
+// options
+.option-group.option-active {
+    display: block;
+}
+.option-group {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 12%) 0px 2px 8px;
+    animation: 100ms ease 0s 1 normal none running animation-j70tpi;
+    transform-origin: center top;
+    border-radius: 4px;
+    z-index: 1;
+}
+.option-item {
+    cursor: pointer;
+    padding: 8px 12px;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.04);
+    }
+}
+.option-title {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+.select-desc {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: rgba(22, 24, 35, 0.5);
+    font-size: 1.2rem;
+    line-height: 17px;
+}
+.switch-group {
+    margin-top: 16px;
+}
+.content-text {
+    margin-top: 4px;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+// witch
+.label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    justify-content: space-between;
+    color: rgb(22, 24, 35);
+    height: 40px;
+}
+.label-run {
+    display: flex;
+    align-items: center;
+    p {
+        margin-right: 16px;
+    }
+}
+.switch {
+    display: flex;
+    align-items: center;
+    width: 44px;
+    height: 24px;
+    padding: 2px;
+    background-color: rgba(22, 24, 35, 0.12);
+    border-radius: 22px;
+    position: relative;
+    cursor: pointer;
+}
+.switch-inner {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    left: 2px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 1px 2px;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+.turn-on {
+    position: relative;
+    background-color: rgb(11, 224, 155);
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+    .switch-inner {
+        position: absolute;
+        left: calc(100% - 22px);
+    }
+}
+// delete
+.delete-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 36px 32px;
+    text-align: center;
+    width: 332px;
+}

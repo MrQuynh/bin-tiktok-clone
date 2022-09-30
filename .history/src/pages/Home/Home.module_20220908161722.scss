@@ -1,0 +1,30 @@
+.body {
+    min-width: 300px;
+    height: 100%;
+    display: block;
+}
+.loading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.back-to-top {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary);
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    color: var(--white);
+    transform: rotate(-90deg);
+    border-radius: 50%;
+
+    // &:hover {
+    //     cursor: pointer;
+    //     background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #fe2c55;
+    // }
+}
+.active {
+    display: block;
+}

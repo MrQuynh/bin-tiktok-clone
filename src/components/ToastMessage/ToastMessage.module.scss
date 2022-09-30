@@ -1,0 +1,55 @@
+.wrapper {
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+    border-left: 3px solid rgba(15, 235, 34, 1);
+    animation: slideInLeft ease 0.5s, fadeOut linear 7s 3s forwards;
+}
+.body {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(15, 235, 34, 0.6);
+
+    border-radius: 2px;
+    // position: absolute;
+}
+.text {
+    color: blue;
+    // padding-left: 30px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 5rem;
+}
+.line {
+    position: absolute;
+
+    color: rgba(15, 235, 34, 1);
+    border-top: 3px solid rgba(15, 235, 34, 1);
+    width: 1005%;
+    animation: countdown 5s ease-in-out;
+}
+@keyframes countdown {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(calc(100% + 32px));
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}

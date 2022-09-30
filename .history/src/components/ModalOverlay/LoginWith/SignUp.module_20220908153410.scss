@@ -1,0 +1,180 @@
+.signup-body {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+
+    position: relative;
+    height: 100%;
+}
+.form {
+    overflow: scroll;
+    padding-bottom: 74px;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.div-label {
+    height: 22px;
+    color: var(--text-color-black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+
+    .email {
+        color: var(--text-color-black);
+        font-weight: 600;
+        font-size: 1.2rem;
+        display: inline-block;
+    }
+}
+.div-label.birthday {
+    color: var(--text-color-gray);
+    font-size: 1.4rem;
+    line-height: 20px;
+}
+.div-form {
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    margin: 9px 0 4px;
+}
+.div-form.border {
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: 8px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    background-color: var(--bg-gray);
+}
+.box.phone {
+    margin: 0;
+}
+.area {
+    font-size: 1.4rem;
+    display: flex;
+    width: 102px;
+    justify-content: space-between;
+    align-items: center;
+    height: 28px;
+    padding: 12px 12px 12px 8px;
+    border-right: 1px solid var(--border-color);
+}
+.input {
+    flex: 1;
+    font-size: 1.6rem;
+    font-weight: 400;
+    height: 42px;
+    padding: 0 12px;
+    border-radius: 6px;
+    background-color: var(--bg-color);
+    caret-color: var(--primary);
+}
+
+.submit-btn {
+    width: 100%;
+    height: 46px;
+    border-radius: 6px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 20px;
+    color: var(--text-color-white);
+    background-color: var(--primary);
+    &:hover {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+}
+
+.signup-footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--bg-color);
+    font-size: 1.2rem;
+    padding: 16px 0;
+    text-align: center;
+    color: var(--text-color-gray);
+    z-index: 10;
+
+    span {
+        color: var(--text-color-black);
+        margin: 0 4px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+.invalid {
+    border-color: var(--primary) !important;
+    color: var(--primary);
+}
+.form-message {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding-left: 8px;
+    color: var(--primary);
+}
+.forgot {
+    color: #141414;
+    float: right;
+
+    &:hover {
+        color: red;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+.errMessage {
+    font-size: 1.4rem;
+    color: red;
+}
+.success {
+    color: blue;
+}
+
+// tippy
+.tippy-box {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background-color: rgba(255, 350, 250);
+    width: 120px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.03);
+    overflow: scroll;
+    height: 180px;
+    top: 120%;
+    left: -4px;
+    z-index: 2;
+    border-radius: 6px;
+}
+.box-active {
+    display: flex;
+}
+.tippy-month {
+    height: 3.4rem;
+    cursor: pointer;
+    padding: 6px 12px;
+    color: rgb(22, 24, 35);
+    border-radius: 6px;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.03);
+    }
+}
+.input-date {
+    // background-color: red;
+    color: green;
+}
+// email

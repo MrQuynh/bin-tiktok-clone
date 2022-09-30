@@ -1,0 +1,15 @@
+.wrapper {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.body {
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+}
+.get-coin {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,47 @@
+.wrapper {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.body {
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+}
+.get-coin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        color: black;
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+    span {
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+}
+.section-info {
+    max-width: 100%;
+    min-width: 255px;
+    width: max-content;
+    height: 76px;
+    padding: 16px 48px 16px 20px;
+    display: flex;
+    opacity: 0.8;
+    -webkit-box-pack: start;
+    place-content: center flex-start;
+    background: rgba(22, 24, 35, 0.03);
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.info-user {
+}
+.image {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 50%;
+}

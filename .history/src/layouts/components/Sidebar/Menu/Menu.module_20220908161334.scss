@@ -1,0 +1,43 @@
+.menu-item {
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 8px;
+    align-items: center;
+    border-radius: 4px;
+    color: var(--text-color-black);
+    transition: background-color ease-in-out 200ms;
+
+    &.active {
+        color: var(--primary);
+
+        .icon {
+            display: none;
+        }
+
+        .active-icon {
+            display: flex;
+        }
+    }
+
+    &:hover {
+        background-color: var(--bg-color-hover);
+    }
+}
+
+.title {
+    margin-left: 8px;
+}
+.icon,
+.active-icon {
+    display: flex;
+}
+
+.active-icon {
+    display: none;
+}
+@media (max-width: 740px) {
+    .title {
+        display: none;
+    }
+}

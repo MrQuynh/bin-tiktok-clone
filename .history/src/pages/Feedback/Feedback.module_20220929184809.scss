@@ -1,0 +1,37 @@
+.wrapper {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.body {
+    width: 1150px;
+    padding: 20px 16px;
+}
+.title-header {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.select-title {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(22, 24, 35, 0.5);
+    font-weight: 600;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 22px;
+}
+.left {
+    width: 330px;
+}
+.topic {
+    padding: 16px 0;
+}
+.right {
+    flex: 1;
+}

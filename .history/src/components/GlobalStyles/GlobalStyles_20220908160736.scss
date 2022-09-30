@@ -1,0 +1,96 @@
+@import 'normalize.css';
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,300;1,400;1,500&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --primary: #fe2c55;
+
+    // default layout
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
+    --default-layout-horizontal-spacer: 24px;
+    --width-sidebar: 330px;
+    // mode
+    --bg-color: white;
+    --bg-color-hover: rgba(22, 24, 35, 0.03);
+    --bg-gray: #f1f1f2;
+    --bg-color-btn-fl: #fe2c55;
+    --bg-color-hover-btn-fl: #fe2c550f;
+    --bg-color-btn-following: white;
+    --bg-color-hover-btn-following: #1618230a;
+    --bg-modal-color: rgba(0, 0, 0, 0.5);
+    --bg-color-sidebar: rgba(141, 123, 123, 0.05);
+
+    --text-color-black: black;
+    --text-color-white: white;
+    --text-color-gray: #161823bf;
+
+    --tick-color: #20d5ec;
+    --border-color: #1618231a;
+    --box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    --box-shadow-share: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+    --scroll-color: rgba(0, 0, 0, 0.15);
+    --transparent-color: transparent;
+    // mode
+
+    --black: #000;
+    --white: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    overflow-y: overlay;
+    background-color: var(--bg-color-white);
+}
+html body {
+    overflow-y: overlay;
+}
+// srollbar css
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: var(--scroll-color);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: var(--scroll-color);
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+// custem tippy tolltip
+body.tippy-box {
+    border-radius: 8px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    background-color: var(--bg-color);
+}
+body .tippy-content {
+    padding: 8px 9px;
+}

@@ -1,0 +1,290 @@
+.video {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.wrapper {
+    display: flex;
+}
+.info {
+    display: flex;
+}
+.info-body {
+    width: 100%;
+}
+.name-out {
+    display: inline-block;
+    position: relative;
+    color: var(--text-color-black);
+    &::after {
+        position: absolute;
+        content: '';
+        height: 50px;
+        top: 100%;
+        left: -60px;
+        right: 0;
+    }
+
+    &:hover .follow-account {
+        display: block;
+    }
+}
+@keyframes view {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+// account fllow
+.follow-account {
+    display: none;
+}
+
+.name-out:hover .name {
+    text-decoration: underline;
+}
+.avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+.name {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin-right: 4px;
+}
+.nickname {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    display: inline-block;
+    text-decoration: none;
+}
+.music-icon {
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-right: 6px;
+}
+.name-music {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    max-width: 380px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.content-text {
+    max-width: 330px;
+}
+.btn {
+    margin: 10px 0 0 20px;
+}
+.follow-btn {
+    color: var(--text-color-black);
+    border-color: var(--border-color);
+
+    &:hover {
+        border-color: var(--border-color);
+        background-color: var(--bg-color-hover);
+    }
+}
+
+// body
+.body {
+    display: flex;
+    margin-top: 15px;
+}
+// video
+.body-video {
+    display: flex;
+    width: 260px;
+    height: 460px;
+    background-color: var(--bg-gray);
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+
+    &:hover .pause.play {
+        display: block;
+    }
+    &:hover .pause-body {
+        display: flex;
+    }
+}
+.video {
+    display: block;
+    width: 100%;
+    max-height: 600px;
+    border-radius: 8px;
+}
+// volume control
+.pause {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    color: var(--text-color-white);
+    font-size: 3rem;
+    top: 86%;
+    left: 12px;
+}
+.pause-body {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    top: 323px;
+    right: -12px;
+}
+
+.volume {
+    display: none;
+}
+.sound-icon {
+    position: absolute;
+    color: var(--text-color-white);
+    font-size: 2rem;
+    top: 77px;
+    right: 26px;
+}
+
+// action
+.actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 80px;
+    height: 460px;
+    padding-left: 20px;
+}
+.action-item {
+    position: relative;
+    padding-top: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+.action-icon:nth-child(1):hover {
+    animation: animate alternate 0.5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.action-icon {
+    font-size: 2rem;
+    margin: 6px 0;
+    color: var(--text-color-black);
+}
+.active {
+    color: var(--primary);
+}
+.vote {
+    color: var(--text-color-gray);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 16px 0;
+}
+.action-item:last-child .vote {
+    margin-bottom: 0;
+}
+// share
+.action-item:last-child:hover .share-home {
+    display: block;
+    animation: hoverFadeIn linear 0.3s;
+}
+@keyframes hoverFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+@keyframes hoverFadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+.share-home {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    z-index: 1;
+    animation: hoverFadeOut linear 0.4s;
+}
+.share-home::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 40px;
+}
+@media (max-width: 740px) {
+    .wrapper {
+        position: relative;
+    }
+    .body {
+        margin-left: -66px;
+    }
+    .content-text {
+        display: none;
+    }
+    .name-music {
+        padding-top: 15px;
+        margin-left: -66px;
+    }
+    .name-out {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn {
+        position: absolute;
+        right: 55px;
+    }
+}
+@media (max-width: 400px) {
+    .btn {
+        display: none;
+    }
+    .body {
+        margin-top: 20px;
+    }
+    .actions {
+        position: absolute;
+        color: var(--text-color-white);
+
+        right: 30px;
+        bottom: 20px;
+    }
+    .action-icon {
+        color: var(--text-color-white);
+    }
+    .vote {
+        color: var(--text-color-white);
+        margin: 6px;
+    }
+}

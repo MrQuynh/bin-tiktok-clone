@@ -1,0 +1,12 @@
+.wrapper {
+    width: 100%;
+    max-height: min((100vh - 96px) - 60px, 734px);
+    // min-height: 400px;
+    border-radius: 8px;
+    background: var(--bg-color);
+    box-shadow: rgb(0 0 0 / 12%) 0px 2px 12px;
+    padding-top: 8px;
+    // overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}

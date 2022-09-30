@@ -1,0 +1,92 @@
+.account {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    border-radius: 12px;
+    box-shadow: 0 0 5px var(--primary);
+    padding: 16px;
+    min-width: 310px;
+    z-index: 1;
+    left: -66px;
+    top: 60px;
+}
+.account-header {
+    margin-bottom: 6px;
+    background-color: var(--bg-color);
+
+    position: relative;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.avatar.large {
+    width: 50px;
+    height: 50px;
+}
+.btn-small-account {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn-account-follow {
+    background-color: var(--primary);
+    border-color: var(--bg-color-hover-btn-following);
+    color: var(--text-color-gray);
+
+    &:hover {
+        background-color: var(--bg-color);
+    }
+}
+.info {
+    margin-left: 12px;
+    flex: 1;
+}
+.nick-name {
+    color: var(--text-color-black);
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+.nick-name.bold {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.icon {
+    color: var(--tick-color);
+    font-size: 1.4rem;
+    margin: 0 0 4px 4px;
+}
+.name {
+    color: var(--text-color-gray);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.name.medium {
+    font-weight: 500;
+    color: var(--text-color-black);
+    font-size: 1.4rem;
+    padding: 4px 0;
+}
+
+.info-follow {
+    margin: 4px 0 0 0;
+}
+.vote-body .vote:nth-child(2) {
+    margin-left: 20px;
+}
+.vote {
+    margin-right: 4px;
+}
+.bio {
+    border-top: 1px solid var(--border-color);
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-top: 12px;
+    margin-top: 12px;
+}

@@ -1,0 +1,157 @@
+.wrapper {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.body {
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 12px;
+}
+.get-coin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        color: black;
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+    span {
+        font-size: 1.6rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
+.section-info {
+    max-width: 100%;
+    min-width: 255px;
+    width: max-content;
+    height: 76px;
+    padding: 16px 48px 16px 20px;
+    display: flex;
+    opacity: 0.8;
+    -webkit-box-pack: start;
+    place-content: center flex-start;
+    background: rgba(22, 24, 35, 0.03);
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.info-user {
+    display: flex;
+    align-items: center;
+}
+.image {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.nickname {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.your-coin {
+    height: 18px;
+    display: flex;
+    align-items: center;
+    .your-coin-icon {
+        color: yellow;
+        margin-right: 4px;
+    }
+    span {
+        font-size: 1.4rem;
+    }
+}
+.space {
+    border-left: 1px solid rgba(22, 24, 35, 0.12);
+    margin: 0 20px;
+}
+.exchange-coin {
+    color: rgba(22, 24, 35, 0.5);
+    font-size: 1.4rem;
+    span {
+        color: rgba(22, 24, 35, 0.5);
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+    }
+    p {
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+.coin-icon {
+    color: rgb(243, 243, 16);
+    margin: 2px;
+}
+.small {
+    height: 14px;
+    width: 14px;
+}
+.buy-coin {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    p {
+        color: red;
+        font-weight: 600;
+        margin: 0 6px;
+    }
+    .icon-info {
+        font-size: 1.6rem;
+    }
+}
+.price-coin {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.price {
+    margin-top: 20px;
+    width: 23%;
+    border: 1px solid rgba(22, 24, 24, 0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0;
+    cursor: pointer;
+    p {
+        display: flex;
+        align-items: center;
+        color: black;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .icon-price {
+        margin-right: 8px;
+        color: yellow;
+        font-size: 3rem;
+    }
+    span {
+        margin-top: 4px;
+        font-weight: 700;
+        font-size: 1.4rem;
+        color: rgba(22, 24, 35, 0.5);
+    }
+}
+.payment {
+    font-size: 1.6rem;
+    margin: 16px 0 12px;
+}
+.btn {
+    width: 200px;
+    border: none;
+    color: rgba(22, 24, 35, 0.34);
+    background-color: rgba(22, 24, 35, 0.06);
+    pointer-events: none;
+    margin-top: 20px;
+}
