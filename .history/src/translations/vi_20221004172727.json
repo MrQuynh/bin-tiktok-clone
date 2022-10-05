@@ -1,0 +1,23 @@
+{
+    "sidebar": {
+        "forYou": "Dành cho bạn",
+        "following": "Đang Follow",
+        "live": "LIVE",
+        "suggestedAccount": "Tài khoản được đề xuất",
+        "followingAccount": "Các tài khoản đang follow",
+        "seeMore": "Xem tất cả",
+        "seeLess": "Ẩn bớt",
+        "followingBtn": "Đang Follow",
+        "login": "Đăng nhập để theo dõi người sáng tạo, thích video và xem nhận xét.",
+        "loginBtn": "Đăng nhập"
+    },
+    "search": {
+        "title": "Tìm kiếm tài khoản và videos",
+        "upload": "Tải lên",
+        "login": "Đăng nhập"
+    },
+    "home": {
+        "follow": "Theo dõi",
+        "following": "Đang Follow"
+    }
+}

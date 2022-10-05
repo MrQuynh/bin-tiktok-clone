@@ -1,0 +1,61 @@
+{
+    "sidebar": {
+        "forYou": "Dành cho bạn",
+        "following": "Đang Follow",
+        "live": "LIVE",
+        "suggestedAccount": "Tài khoản được đề xuất",
+        "followingAccount": "Các tài khoản đang follow",
+        "seeMore": "Xem tất cả",
+        "seeLess": "Ẩn bớt",
+        "followingBtn": "Đang Follow",
+        "login": "Đăng nhập để theo dõi người sáng tạo, thích video và xem nhận xét.",
+        "loginBtn": "Đăng nhập"
+    },
+    "search": {
+        "title": "Tìm kiếm tài khoản và videos",
+        "upload": "Tải lên",
+        "login": "Đăng nhập",
+        "language": "Tiếng Việt",
+        "feedback": "Phản hồi và trợ giúp",
+        "keyboard": "Phím tắt ",
+        "profile": "View profile",
+        "getCoins": "Nhận su",
+        "settings": "Cài đặt",
+        "logout": "Log out",
+        "message": "Tin nhắn",
+        "box": "Hộp thư",
+        "upLoad": "Đăng video"
+    },
+    "home": {
+        "follow": "Theo dõi",
+        "following": "Đang Follow"
+    },
+    "profile": {
+        "follow": "Theo dõi",
+        "following": "Đang Follow",
+        "edit": "Sửa hồ sơ",
+        "liked": "Đã thích",
+        "message": "Tin nhắn",
+        "unFollow": "Bỏ Follow",
+        "like": "Thích",
+        "report": "Báo cáo",
+        "block": "Chặn",
+        "title": "Sửa hồ sơ",
+        "photo": "Ảnh hồ sơ",
+        "username": "TikTok Id",
+        "firstname": "Tên",
+        "lastname": "Họ",
+        "bio": "Tiểu sử",
+        "save": "Lưu",
+        "cancel": "Hủy",
+        "content": "TikTok ID chỉ có thể bao gồm chữ cái, chữ số, dấu gạch dưới và dấu chấm. Khi thay đổi TikTok ID, liên kết hồ sơ của bạn cũng sẽ thay đổi."
+    },
+    "watching": {
+        "setting": "Cài đặt",
+        "delete": "Xóa",
+        "link": "Sao chép",
+        "comment": "Thêm bình luận...",
+        "post": "Đăng",
+        "emo": "Nhấn để thêm emoji"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "sidebar": {
+        "forYou": "For you",
+        "following": "Following",
+        "live": "LIVE",
+        "suggestedAccount": "Suggested accounts",
+        "followingAccount": "Following accounts",
+        "seeMore": "See more",
+        "seeLess": "See less",
+        "followingBtn": "Following",
+        "login": "Log in to follow creators, like videos, and view comments.",
+        "loginBtn": "Log in"
+    },
+    "search": {
+        "title": "Search accounts and videos",
+        "upload": "Up load",
+        "login": "Login",
+        "language": "English",
+        "feedback": "Feedback and help",
+        "keyboard": "Keyboards shortcuts",
+        "profile": "View profile",
+        "getCoins": "Get coins",
+        "settings": "Settings",
+        "logout": "Log out",
+        "message": "Message",
+        "box": "Box",
+        "upLoad": "Upload Video"
+    },
+    "home": {
+        "follow": "Follow",
+        "following": "Following"
+    }
+}

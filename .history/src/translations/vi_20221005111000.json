@@ -1,0 +1,92 @@
+{
+    "sidebar": {
+        "forYou": "Dành cho bạn",
+        "following": "Đang Follow",
+        "live": "LIVE",
+        "suggestedAccount": "Tài khoản được đề xuất",
+        "followingAccount": "Các tài khoản đang follow",
+        "seeMore": "Xem tất cả",
+        "seeLess": "Ẩn bớt",
+        "followingBtn": "Đang Follow",
+        "login": "Đăng nhập để theo dõi người sáng tạo, thích video và xem nhận xét.",
+        "loginBtn": "Đăng nhập"
+    },
+    "search": {
+        "title": "Tìm kiếm tài khoản và videos",
+        "upload": "Tải lên",
+        "login": "Đăng nhập",
+        "language": "Tiếng Việt",
+        "feedback": "Phản hồi và trợ giúp",
+        "keyboard": "Phím tắt ",
+        "profile": "View profile",
+        "getCoins": "Nhận su",
+        "settings": "Cài đặt",
+        "logout": "Log out",
+        "message": "Tin nhắn",
+        "box": "Hộp thư",
+        "upLoad": "Đăng video"
+    },
+    "home": {
+        "follow": "Theo dõi",
+        "following": "Đang Follow"
+    },
+    "profile": {
+        "follow": "Theo dõi",
+        "following": "Đang Follow",
+        "edit": "Sửa hồ sơ",
+        "liked": "Đã thích",
+        "message": "Tin nhắn",
+        "unFollow": "Bỏ Follow",
+        "like": "Thích",
+        "report": "Báo cáo",
+        "block": "Chặn",
+        "title": "Sửa hồ sơ",
+        "photo": "Ảnh hồ sơ",
+        "username": "TikTok Id",
+        "firstname": "Tên",
+        "lastname": "Họ",
+        "bio": "Tiểu sử",
+        "save": "Lưu",
+        "cancel": "Hủy",
+        "content": "TikTok ID chỉ có thể bao gồm chữ cái, chữ số, dấu gạch dưới và dấu chấm. Khi thay đổi TikTok ID, liên kết hồ sơ của bạn cũng sẽ thay đổi."
+    },
+    "watching": {
+        "setting": "Cài đặt",
+        "delete": "Xóa",
+        "link": "Sao chép",
+        "comment": "Thêm bình luận...",
+        "post": "Đăng",
+        "emo": "Nhấn để thêm emoji",
+        "private": "Cài đặt quyền riêng tư"
+    },
+    "upload": {
+        "title1": "Tải video lên",
+        "title2": "Đăng video vào tài khoản của bạn",
+        "select": "Chọn video để tải lên",
+        "orDrag": "Hoặc kéo và thả tập tin",
+        "or": "Hoăc",
+        "resolution": "Độ phân giải",
+        "upTo": "10 phút tối đa",
+        "less": "Nhỏ hơn 2GB",
+        "caption": "Chú thích",
+        "cover": "Ảnh bìa",
+        "who": "Ai có thể xem video này",
+        "public": "Public",
+        "friend": "Friends",
+        "private": "Private",
+        "allow": "Cho phép người dùng:",
+        "comment": "Bình luận",
+        "run": "Chạy quy trình kiểm tra bản quyền",
+        "well": "Chúng tôi sẽ kiểm tra xem video của bạn có sử dụng âm thanh vi phạm bản quyền hay không. Nếu chúng tôi phát hiện có vi phạm, bạn có thể chỉnh sửa video trước khi đăng.",
+        "more": "Tìm hiểu thêm",
+        "cancel": "Hủy bỏ",
+        "post": "Đăng",
+        "selectFile": "Chọn tập tin",
+        "copyright": "Kiểm tra bản quyền chỉ bắt đầu sau khi bạn tải video của mình lên."
+    },
+    "message": {
+        "title": "Tin nhắn",
+        "no": "Chưa có tin nhắn nào",
+        "send": "Gửi tin nhắn..."
+    }
+}

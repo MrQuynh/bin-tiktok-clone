@@ -1,0 +1,91 @@
+{
+    "sidebar": {
+        "forYou": "For you",
+        "following": "Following",
+        "live": "LIVE",
+        "suggestedAccount": "Suggested accounts",
+        "followingAccount": "Following accounts",
+        "seeMore": "See more",
+        "seeLess": "See less",
+        "followingBtn": "Following",
+        "login": "Log in to follow creators, like videos, and view comments.",
+        "loginBtn": "Log in"
+    },
+    "search": {
+        "title": "Search accounts and videos",
+        "upload": "Up load",
+        "login": "Login",
+        "language": "English",
+        "feedback": "Feedback and help",
+        "keyboard": "Keyboards shortcuts",
+        "profile": "View profile",
+        "getCoins": "Get coins",
+        "settings": "Settings",
+        "logout": "Log out",
+        "message": "Message",
+        "box": "Box",
+        "upLoad": "Upload Video"
+    },
+    "home": {
+        "follow": "Follow",
+        "following": "Following"
+    },
+    "profile": {
+        "follow": "Follow",
+        "following": "Following",
+        "edit": "Edit profile",
+        "liked": "Liked",
+        "message": "Message",
+        "unFollow": "UnFollow",
+        "like": "Likes",
+        "report": "Report",
+        "block": "Block",
+        "title": "Edit profile",
+        "photo": "Profile photo",
+        "username": "Username",
+        "firstname": "First Name",
+        "lastname": "Last Name",
+        "bio": "Bio",
+        "save": "Save",
+        "cancel": "Cancel",
+        "content": "Usernames can only contain letters, numbers, underscores, and periods. Changing your username will also change your profile link."
+    },
+    "watching": {
+        "setting": "Settings",
+        "delete": "Delete",
+        "link": "Coppy link",
+        "comment": "Add comments...",
+        "post": "Post",
+        "emo": "Click to add emojis"
+    },
+    "upload": {
+        "title1": "Upload video",
+        "title2": "Post a video to your account",
+        "select": "Select video to upload",
+        "orDrag": "Or drag and drop a file",
+        "or": "Or",
+        "resolution": "resolution or higher",
+        "upTo": "Up to 10 minutes",
+        "less": "Less than 2GB",
+        "caption": "Caption",
+        "cover": "Cover",
+        "who": "Who can view this video",
+        "public": "Public",
+        "friend": "Friends",
+        "private": "Private",
+        "allow": "Allow users to",
+        "comment": "Comment",
+        "run": "Run a copyright check",
+        "well": "We'll check your video for potential copyright infringements on used sounds. If infringements are found, you can edit the video before posting.",
+        "more": "Learn more",
+        "cancel": "Discard",
+        "post": "Post",
+        "selectFile": "Select file",
+        "copyright": "Copyright check will not begin until your video is uploaded."
+    },
+    "message": {
+        "title": "Message",
+        "no": "No messages yet",
+        "send": "Send a message..."
+    }
+}
