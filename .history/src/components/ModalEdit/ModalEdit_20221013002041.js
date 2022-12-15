@@ -72,6 +72,7 @@ function ModalEdit({ setModalEdit, avatar, firstName1, lastName1, nickname, bio,
     const dataSend = { last_name: lastName, first_name: firstName, bio: bioEdit };
     const handleSave = () => {
         setSaving(true);
+        // toast.success('Update user successfully!');
 
         userService.postUpdateUser(dataSend).then(async (data) => {
             if (data) {

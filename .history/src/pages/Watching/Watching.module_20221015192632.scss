@@ -302,10 +302,12 @@
 // comment
 .comments {
     background-color: var(--bg-color);
+    // flex: 1;
     border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
-    padding: 24px 32px 15px;
-
+    padding: 24px 32px 0;
+    // margin-bottom: 8px;
+    padding-bottom: 20px;
     overflow-y: scroll;
 }
 // footer

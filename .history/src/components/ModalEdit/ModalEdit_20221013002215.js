@@ -75,6 +75,7 @@ function ModalEdit({ setModalEdit, avatar, firstName1, lastName1, nickname, bio,
 
         userService.postUpdateUser(dataSend).then(async (data) => {
             if (data) {
+                toast.success('Update user successfully!');
                 setTimeout(() => {
                     setModalEdit(false);
                     setSaving(false);

@@ -38,7 +38,7 @@ const Login = ({ setLogin }) => {
     // title login
     let titleLogin = <FormattedMessage id="login.title1" />;
     if (!register) {
-        titleLogin = <FormattedMessage id="login.signUp" />;
+        titleLogin = <FormattedMessage id="login.logIn" />;
     }
     if (qrcode === 'qrcode') {
         titleLogin = <FormattedMessage id="login.qr" />;
@@ -103,7 +103,7 @@ const Login = ({ setLogin }) => {
                 )}
             </div>
             <div className={cx('switch')}>
-                <p>{register ? <FormattedMessage id="login.don" /> : <FormattedMessage id="login.already" />}</p>
+                <p>{register ? <FormattedMessage id="login.dont" /> : <FormattedMessage id="login.already" />}</p>
                 {register ? (
                     <div
                         className={cx('switch-signup')}

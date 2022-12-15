@@ -9,7 +9,7 @@ import * as userService from '~/services/userService';
 import { createBrowserHistory } from 'history';
 import ToastMessage from '../ToastMessage';
 import { FormattedMessage } from 'react-intl';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 const cx = classNames.bind(styles);
 
@@ -72,8 +72,8 @@ function ModalEdit({ setModalEdit, avatar, firstName1, lastName1, nickname, bio,
     const dataSend = { last_name: lastName, first_name: firstName, bio: bioEdit };
     const handleSave = () => {
         setSaving(true);
-
         userService.postUpdateUser(dataSend).then(async (data) => {
+            toast.success('Update user successfully!');
             if (data) {
                 setTimeout(() => {
                     setModalEdit(false);
@@ -83,7 +83,7 @@ function ModalEdit({ setModalEdit, avatar, firstName1, lastName1, nickname, bio,
             }
         });
     };
-
+    console.log('test');
     return (
         <Portal>
             <div className={cx('wrapper')} onClick={() => setModalEdit(false)}>
@@ -184,18 +184,6 @@ function ModalEdit({ setModalEdit, avatar, firstName1, lastName1, nickname, bio,
                         </button>
                     </div>
                 </div>
-                <ToastContainer
-                    position="top-center"
-                    autoClose={5000}
-                    hideProgressBar={false}
-                    newestOnTop={false}
-                    closeOnClick
-                    rtl={false}
-                    pauseOnFocusLoss
-                    draggable
-                    pauseOnHover
-                    theme="colored"
-                />
             </div>
         </Portal>
     );

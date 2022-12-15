@@ -90,18 +90,5 @@
         "title": "Tin nhắn",
         "no": "Chưa có tin nhắn nào",
         "send": "Gửi tin nhắn..."
-    },
-    "login": {
-        "title1": "Đăng nhập vào TikTok",
-        "title2": "Đăng nhập bằng mã QR",
-        "qr": "Sử dụng mã QR",
-        "email": "Số điện thoại / Email / TikTok ID",
-        "facebook": "Tiếp tục với Facebook",
-        "google": "Tiếp tục với Google",
-        "instagram": "Tiếp tục với Instagram",
-        "signUp": "Đăng ký",
-        "don": "Bạn không có tài khoản?",
-        "create": "Tạo tài khoản",
-        "already": "Bạn đã có tài khoản?"
     }
 }

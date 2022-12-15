@@ -61,6 +61,7 @@ export const postLogin = async (dataSend, errorMess) => {
 };
 export const postUpdateUser = async (dataSend, errorMess) => {
     try {
+        toast.success('Update user successfully!');
         const res = await request.patch('auth/me?_method=PATCH', dataSend);
         return res;
     } catch (error) {

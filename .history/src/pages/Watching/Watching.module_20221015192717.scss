@@ -302,9 +302,11 @@
 // comment
 .comments {
     background-color: var(--bg-color);
+    // flex: 1;
     border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
-    padding: 24px 32px 15px;
+    padding: 24px 32px 10px;
+    // margin-bottom: 8px;
 
     overflow-y: scroll;
 }

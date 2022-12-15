@@ -72,6 +72,7 @@ function ModalEdit({ setModalEdit, avatar, firstName1, lastName1, nickname, bio,
     const dataSend = { last_name: lastName, first_name: firstName, bio: bioEdit };
     const handleSave = () => {
         setSaving(true);
+        toast.success('Update user successfully!');
 
         userService.postUpdateUser(dataSend).then(async (data) => {
             if (data) {
@@ -184,19 +185,19 @@ function ModalEdit({ setModalEdit, avatar, firstName1, lastName1, nickname, bio,
                         </button>
                     </div>
                 </div>
-                <ToastContainer
-                    position="top-center"
-                    autoClose={5000}
-                    hideProgressBar={false}
-                    newestOnTop={false}
-                    closeOnClick
-                    rtl={false}
-                    pauseOnFocusLoss
-                    draggable
-                    pauseOnHover
-                    theme="colored"
-                />
             </div>
+            <ToastContainer
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="colored"
+            />
         </Portal>
     );
 }
