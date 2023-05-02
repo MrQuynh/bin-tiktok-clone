@@ -1,0 +1,18 @@
+.wrapper{
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    background-color: rgba(48,56,63, 0.4);
+    display: flex;justify-content: center;
+    align-items: center;
+    
+}
+.wrapper2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
